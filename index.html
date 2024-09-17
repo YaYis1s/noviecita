@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi novia?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¿Te gustaría ser mi novia?</h1>
+        <p class="message">Hola Vale bonita,</p>
+        <p class="message">Desde que te conocí, todo en mi vida ha sido mucho mejor. Adoro cada momento que pasamos juntos y me encantaría seguir creando recuerdos contigo. Eres una persona increíble y no hay un solo día en el que no piense en lo feliz que me haces.</p>
+        <p class="message">Quiero compartir risas, sueños y aventuras contigo, y caminar de la mano en este camino que llamamos vida. No hay nada que me gustaría más que poder llamarte mi novia.</p>
+        <p class="message">¿Te gustaría ser mi compañera de aventuras y construir momentos inolvidables juntos?</p>
+        <button onclick="openLoveLetter()">Leer más</button>
+
+        <div id="love-letter" class="letter hidden">
+            <p>He estado pensando mucho en nosotros y en lo especial que eres para mí. Cada día contigo es una nueva razón para sonreír, y no puedo evitar imaginar todo lo que podríamos vivir juntos.</p>
+            <p>Desde el primer dia que te vi hasta hoy me haz enamorado como no tienes una idea. Agradezco cada uno de los momentos que hemos pasado (no salidas como tales), pero todos los días que me sacas una sonrisa.</p>
+            <p>Creeme que esto es poco de lo que te dare siendo novios, no me hubiese gustado hacerlo de esta manera, pero es algo nuevo, aunque solo espera a que tengamos mas tiempo los dos y lo hare diferente.</p>
+            <p class="cursiva-negra">¿Puedo ser tu novio?</p> <!-- Aquí se agrega la clase -->
+        </div>
+    </div>
+
+    <script>
+        function openLoveLetter() {
+            document.getElementById("love-letter").classList.toggle("hidden");
+        }
+    </script>
+</body>
+</html>
